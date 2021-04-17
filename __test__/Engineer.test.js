@@ -1,8 +1,8 @@
 const { test, expect } = require("@jest/globals");
 const { describe, terminalWidth } = require("yargs");
-const Employee = require("../lib/Employees");
+const Engineer = require("../lib/Engineer");
 
-    const emp = new Employee("Josh", 1, "josh@basketball.com");
+    const emp = new Engineer("Josh", 1, "josh@basketball.com", "josh@github.com");
     //testing to make sure emp is an object
     test("should create an object", () => {
         expect(typeof(emp)).toBe("object");
@@ -20,6 +20,10 @@ const Employee = require("../lib/Employees");
         expect(emp.getEmail()).toBe("josh@basketball.com");
     });
 
+    test("should store GitHub", () => {
+        expect(emp.getGitHub()).toBe("josh@github.com");
+    });
+
     test("should have proper role ", () => {
-        expect(emp.getRole()).toBe("Employee");
+        expect(emp.getRole()).toBe("Engineer");
     });
