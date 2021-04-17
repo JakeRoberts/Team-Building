@@ -20,6 +20,6 @@ const Employee = require("../lib/Employees");
         expect(emp.getEmail()).toBe("josh@basketball.com");
     });
 
-    test("should have proper role ", () => {
+    test("should have proper role", () => {
         expect(emp.getRole()).toBe("Employee");
     });

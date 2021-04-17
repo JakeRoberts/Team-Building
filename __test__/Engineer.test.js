@@ -24,6 +24,6 @@ const Engineer = require("../lib/Engineer");
         expect(emp.getGitHub()).toBe("josh@github.com");
     });
 
-    test("should have proper role ", () => {
+    test("should have proper role", () => {
         expect(emp.getRole()).toBe("Engineer");
     });
