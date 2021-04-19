@@ -7,9 +7,9 @@ const htmlGenerator = (team) => {
     <meta name="viewport" content="width=device-width">
 	<title>The Team</title>
 	<style>
-		body { margin: 0; font-family: sans-serif; text-align: center; background-color: beige; }
-		header { padding: 10px; background-color: darkcyan; box-shadow: 0 0 5px black; margin-bottom: 25px; }
-		main > section { display: inline-block; vertical-align: top; padding: 10px; margin: 10px; box-shadow: 0 0 5px dimgrey; }
+		body { margin: 0; font-family: sans-serif; text-align: center; background-color: #00ffdc; }
+		header { padding: 10px; background-color: #e3ff00; box-shadow: 0 0 5px black; margin-bottom: 25px; }
+		main > section { display: inline-block; vertical-align: top; background-color: #83ff5a; padding: 10px; margin: 10px; box-shadow: 0 0 5px dimgrey; }
 	</style>
 </head>
 <body>
